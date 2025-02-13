@@ -5,4 +5,13 @@
 
 ![Screenshot of the application](assets/img1.jpeg)
 
+Login UI
+
+![Screenshot of the application](assets/img2.jpeg)
+
+Register UI
+
+![Screenshot of the application](assets/img2.jpeg)
+
+
 Thank you! Stay tuned for "Chautari"
