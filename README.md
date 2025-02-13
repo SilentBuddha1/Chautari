@@ -7,7 +7,7 @@
 
 Login UI
 
-![Screenshot of the application](assets/img2.jpeg)
+![Screenshot of the application](assets/img3.jpeg)
 
 Register UI
 
