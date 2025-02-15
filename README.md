@@ -13,5 +13,20 @@ Register UI
 
 ![Screenshot of the application](assets/img2.jpeg)
 
+Phase 1
+
+Features :
+
+# Team Management:
+
+Create, read, update, and delete teams using SQlite
+
+![Screenshot of the application](assets/img4.jpeg)
+![Screenshot of the application](assets/img5.jpeg)
+![Screenshot of the application](assets/img6.jpeg)
+![Screenshot of the application](assets/img7.jpeg)
+
+
+
 
 Thank you! Stay tuned for "Chautari"
