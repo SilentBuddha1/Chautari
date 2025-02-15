@@ -22,4 +22,33 @@
     <string name="nav_sign_out">Sign Out</string>
 
 
+    <string name="mobile">Mobile</string>
+    <string name="update">UPDATE</string>
+    <string name="my_profile">My Profile</string>
+
+
+    <string name="create_board_title">Create Board</string>
+    <string name="create">CREATE</string>
+    <string name="board_name">Team</string>
+
+    <string name="id">ID</string>
+    <string name="none">NONE</string>
+    <string name="multi_line_message">
+    👋 Hello\n🌿 Welcome to Chautari.\n⏳ ....Loading....\n❌ Error\n⚠️ Erro\n⛔ Err\n🛑 Er\n🚨 E\n🚧 <b>This app is in maintenance</b> 🔧
+</string>
+
+    <string name="feature">Do you want use this feature...</string>
+
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+
+    <string name="member">Member</string>
+    <string name="insert">Create</string>
+    <string name="read">Read</string>
+
+    <string name="delete">Delete</string>
+    <string name="updateNote">Update</string>
+    <string name="back"> > </string>
+
+
 </resources>

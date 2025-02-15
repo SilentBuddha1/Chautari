@@ -1,32 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.drawerlayout.widget.DrawerLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_main"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:openDrawer="start"
+    tools:context=".activities.MainActivity">
 
-    >
-    <include
-        layout="@layout/app_bar_main"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
-        />
-
-    <com.google.android.material.navigation.NavigationView
-        android:id="@+id/nav_view"
+    <TextView
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="start"
-        android:fitsSystemWindows="true"
-        app:headerLayout="@layout/nav_header_main"
-        app:menu="@menu/activity_main_drawer"
+        android:layout_height="wrap_content"
+        android:text="@string/multi_line_message"
+        android:breakStrategy="simple"
+        android:maxLines="10"
+        android:lineSpacingExtra="4dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.459" />
 
-        />
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_sign_up_activity"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/material_dynamic_primary90"
+        tools:layout_editor_absoluteX="-114dp"
+        tools:layout_editor_absoluteY="3dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/toolbar_title_text_size"
+            android:textStyle="bold"
 
 
+            />
 
-</androidx.drawerlayout.widget.DrawerLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

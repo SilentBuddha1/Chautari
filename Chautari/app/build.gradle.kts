@@ -49,22 +49,29 @@ dependencies {
 
 
     // Import the Firebase BoM
-    implementation(platform("com.google.firebase:firebase-bom:33.9.0"))
+    implementation(platform(libs.firebase.bom))
 
 
     // TODO: Add the dependencies for Firebase products you want to use
     // When using the BoM, don't specify versions in Firebase dependencies
-    implementation("com.google.firebase:firebase-analytics")
+    implementation(libs.google.firebase.analytics)
 
     implementation(libs.firebase.firestore)
     implementation(libs.firebase.database)
     implementation(libs.firebase.auth.ktx)
 
-    implementation("de.hdodenhof:circleimageview:3.1.0")
+    implementation(libs.circleimageview)
 
 
     // Add the dependencies for any other desired Firebase products
     // https://firebase.google.com/docs/android/setup#available-libraries
+
+    implementation(libs.androidx.drawerlayout)
+
+    implementation(libs.glide)
+    annotationProcessor(libs.compiler)
+
+    implementation(libs.firebase.storage)
 
 
 

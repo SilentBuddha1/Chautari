@@ -2,7 +2,6 @@ package com.silent.chautari.activities
 
 import android.annotation.SuppressLint
 import android.app.Dialog
-import android.app.ProgressDialog
 import android.os.Bundle
 import android.os.Handler
 import android.widget.TextView
@@ -18,6 +17,7 @@ import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
 import com.silent.chautari.R
 
+@Suppress("DEPRECATION")
 open class BaseActivity : AppCompatActivity() {
 
     private var doubleBackToExitPressedOnce = false
